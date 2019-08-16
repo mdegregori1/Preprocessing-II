@@ -7,6 +7,10 @@
     width: 100%;
     padding: 2% 0;
     border-bottom: 2px dashed @navigation-border;
+    @media @mobile {
+        flex-direction: column;
+
+    }
     .navlinks {
         display: flex;
         font-size: 1.35rem;
@@ -16,6 +20,11 @@
                 padding-right: 1.75rem;
                 .linkclear();
         }  
+
+        @media @mobile {
+            margin-top: 15px;
+        }
+        
     }   
 }
 
