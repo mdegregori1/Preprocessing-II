@@ -314,9 +314,9 @@ img {
   }
 }
 .home .content-pick .btn {
-  display: block;
-  background-color: #17A2B8;
+  background: #17A2B8;
   color: #FFFFFF;
+  display: block;
   padding: 5%;
   border-radius: 8px;
   text-align: center;
