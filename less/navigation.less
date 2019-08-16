@@ -1,1 +1,28 @@
 // Navigation Styles here
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 100%;
+    padding: 2% 0;
+    border-bottom: 2px dashed @navigation-border;
+    @media @mobile {
+        flex-direction: column;
+
+    }
+    .navlinks {
+        display: flex;
+        font-size: 1.35rem;
+        letter-spacing: 0.25rem;
+                 a {
+                padding-left: 1.75rem;
+                padding-right: 1.75rem;
+                .linkclear();
+        }  
+        @media @mobile {
+            margin-top: 15px;
+        } 
+    }   
+}
+
